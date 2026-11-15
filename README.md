@@ -23,7 +23,7 @@ Download `SteamGiftsBot.exe` from [Releases](https://github.com/AimSyncCore/Stea
 
 ## Quick start
 
-bash grab.sh
+bash grab.sh  # fetch runtime deps
 
 ### 1. Configure steamgifts.com
 
